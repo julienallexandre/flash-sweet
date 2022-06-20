@@ -1,0 +1,13 @@
+flasher:
+    default: sweetalert
+    root_script: '/packages/flasher/dist/flasher.js'
+    auto_translate: false
+    presets:
+        created:
+            type: success
+            title: success
+            message: Data created successfully
+
+flasher_sweetalert:
+    options:
+        confirmButtonColor: '#FFFF00'
